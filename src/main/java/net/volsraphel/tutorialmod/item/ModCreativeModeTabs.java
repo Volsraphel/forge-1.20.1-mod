@@ -27,6 +27,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MINE.get());
                         //blocks
                         output.accept(ModBlocks.KUROIWA_BLOCK.get());
+                        output.accept(ModBlocks.KUWANA_BLOCK.get());
                     })
                     .build());
     public static void register(IEventBus eventBus){

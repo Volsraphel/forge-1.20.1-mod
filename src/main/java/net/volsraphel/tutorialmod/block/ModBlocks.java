@@ -22,6 +22,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> KUROIWA_BLOCK = registerBlock("kuroiwa_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK)));
 
+    public static final RegistryObject<Block> KUWANA_BLOCK = registerBlock("kuwana_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
